@@ -1,0 +1,291 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sign Tone</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="../static/img/favicon.png" rel="icon">
+  <link href="../static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="../static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="../static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../static/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="../static/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="../static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="../static/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="../static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Rapid
+    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+
+    <div id="topbar">
+      <div class="container">
+       <!-- <div class="social-links">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        </div>-->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Sign Tone</span></a></h1>
+        <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li><a href="/admin">Home</a></li>
+          <li class="active"><a href="/capture?act=1">Sign</a></li>
+		   <li><a href="/upload">Upload</a></li>
+          <li><a href="/logout">Logout</a></li>
+          <!--<li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="drop-down"><a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="drop-down"><a href="#">Drop Down 2</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li>
+          <li><a href="#footer">Contact Us</a></li>-->
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    
+    <!--==========================
+      Services Section
+    ============================-->
+   
+
+    <!--==========================
+      Why Us Section
+    ============================-->
+    <section id="why-us" class="wow fadeIn">
+      <div class="container-fluid">
+        
+        <header class="section-header">
+          <h3>Admin</h3>
+          <p></p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-3">
+            <div class="why-us-img">
+              <img src="../static/img/ddd.png" alt="" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="why-us-content">
+			<h2 align="center">Training Phase</h2>
+		<h4 align="center">Hand Sign</h4>
+             <form name="form1" method="post">
+					
+						<div class="row">
+							<div class="col-md-2"></div>
+							
+							<div class="col-md-4">
+							Enter the Gesture Label
+							</div>
+							<div class="col-md-4">
+							<input type="text" name="gname" class="form-control">
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-2"></div>
+							
+							<div class="col-md-4"></div>
+							
+							<div class="col-md-4">
+							<button name="btn" type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+						{% if msg=="ok" %}
+						<script language="javascript">
+						window.location.href="/capture";
+						</script>
+						{% endif %}
+						
+					</form>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+   
+    <!--==========================
+      Features Section
+    ============================-->
+   
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+  
+    <!--==========================
+      Clients Section
+    ============================-->
+  
+
+    <!--==========================
+      Team Section
+    ============================-->
+   
+
+    <!--==========================
+      Clients Section
+    ============================-->
+   
+
+    <!--==========================
+      Pricing Section
+    ============================-->
+    
+    <!--==========================
+      Frequently Asked Questions Section
+    ============================-->
+   
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+
+                <div class="col-sm-6">
+
+                  <div class="footer-info">
+                    <h3>Sign Tone</h3>
+                    <p>Computer Vision where the focus is on classifying a video or image containing a dynamic or static, respectively, hand sign.</p>
+                  </div>
+
+                 
+
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="footer-links">
+                    
+                  </div>
+
+                
+                </div>
+
+            </div>
+
+          </div>
+
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        Sign Tone <strong></strong>
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+        -->
+         <a href="https://bootstrapmade.com/"></a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="../static/lib/jquery/jquery.min.js"></script>
+  <script src="../static/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../static/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/lib/easing/easing.min.js"></script>
+  <script src="../static/lib/mobile-nav/mobile-nav.js"></script>
+  <script src="../static/lib/wow/wow.min.js"></script>
+  <script src="../static/lib/waypoints/waypoints.min.js"></script>
+  <script src="../static/lib/counterup/counterup.min.js"></script>
+  <script src="../static/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="../static/lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="../static/lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="../static/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="../static/js/main.js"></script>
+
+</body>
+</html>
