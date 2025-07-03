@@ -105,7 +105,11 @@ MIT License — feel free to modify and use for learning and research purposes.
 
 - **Joseph Harshan**  
   [GitHub](https://github.com/josephharshan24)  
+<<<<<<< HEAD
   [LinkedIn](https://linkedin.com/in/josephharshan24)
+=======
+  [LinkedIn](https://www.linkedin.com/in/joseph-harshan-88b763248/)
+>>>>>>> 730f326688aee9e8eea0fdbbbf2795406807983c
 
 ---
 
