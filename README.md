@@ -67,7 +67,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-Then open `http://localhost:5000` in your browser.
+Then open `http://localhost:8080` in your browser.
 
 > ⚠️ Ensure your webcam is connected.
 
